@@ -1,0 +1,122 @@
+.header{
+    height: 1.01rem;
+    background: #06c1ae;
+    display: -webkit-flex;
+}
+.header .header-left{
+    /*width: 1.4rem;*/
+    box-sizing: border-box;
+    padding: 0 0.1rem;
+    height: 1.01rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.01rem;
+}
+.header .header-a{
+    color: #ffffff;
+}
+.header .header-search{
+    -webkit-flex: 1;
+    height: 0.6rem;
+    border-radius: 0.1rem;
+    margin-top: 0.2rem;
+    text-align: center;
+    line-height: 0.6rem;
+    background: rgba(0,0,0,.15);
+}
+.header .header-search input{
+    border:none;
+    outline: none;
+    background: transparent;
+}
+.header .header-right{
+    width: 0.9rem;
+    height: 1.01rem;
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 0.1rem;
+}
+.header .header-right .icon-text{
+    display: block;
+    font-size: .4rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top:0.15rem;
+}
+.header .header-right a{
+    font-size: .2rem;
+}
+.banner-download{
+    height: 100%;
+    border-bottom: 1px solid #eee;
+}
+.banner-download img{
+    width: 100%;
+}
+.list{
+    background: #fff;
+    border: 1px ;
+    width: 100%;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+}
+.list .icon-list{
+    text-align: center;
+    font-size: 0;
+}
+.list .icon-list .icon{
+    display: inline-block;
+    width: 20%;
+    font-size: .2rem;
+    text-align: center;
+}
+.list .icon-list .icon i{
+    background: orange;
+    height: .7rem;
+    line-height: .7rem;
+    margin: .2rem .3rem;
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
+    font-size: .4rem;
+    text-align: center;
+    font-weight: 400;
+}
+.daogou{
+    display: -webkit-flex;
+    text-align: center;
+    margin-top: .2rem;
+    box-sizing: border-box;
+    padding: .1rem;
+    background: #ffffff;
+    height: 2.26rem;
+}
+.daogou .react{
+    -webkit-flex: 1;
+    text-align: center;
+    border-right: 1px solid #eee;
+    /*width: 33%;*/
+}
+.daogou .react-last{
+    border-right: 0;
+}
+.daogou .react img{
+    height: 1rem;
+}
+.daogou .react strong{
+    display: block;
+    color: #55a40f;
+    font-size: .25rem;
+    margin-top: .12rem;
+    margin-bottom: .36rem;
+}
+.daogou .react small{
+    font-size: .2rem;
+}
+.daogou .react-middle strong{
+    color: #ff3f0d;
+}
+.daogou .react-last strong{
+    color: #f742a0;
+}
